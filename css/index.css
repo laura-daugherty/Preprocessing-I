@@ -130,10 +130,7 @@ table {
 * {
   box-sizing: border-box;
 }
-html,
-body {
+html body {
   height: 100%;
-}
-body {
-  color: red;
+  font-size: 62.5%;
 }
