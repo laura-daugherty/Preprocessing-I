@@ -135,90 +135,98 @@ table {
   display: flex;
   flex-flow: column;
 }
-.paratext {
-  font-size: 1rem;
-  color: #243C4E;
-  text-align: justify;
-}
 .sideparaspace {
   margin: 5%;
   padding: 5%;
 }
 /*variables */
-.funborder {
-  border: 2px dashed #243C4E;
-}
-html body {
+body {
   display: flex;
-  height: 100%;
   font-size: 62.5%;
   margin: 1%;
   background-color: #F1F1F1;
 }
-html body .sidebar {
+.sidebar {
   width: 10rem;
-  background-color: #BED2E9;
-  color: #243C4E;
+  background-color: #243C4E;
+  color: #F1F1F1;
   height: 1000px;
   align-items: center;
   display: flex;
   flex-flow: column;
 }
-html body .sidebar img {
+.sidebar img {
   border-radius: 100%;
   width: 8rem;
   margin: 1rem;
 }
-html body .sidebar .intro {
+.sidebar .intro {
   font-size: 1rem;
-  color: #243C4E;
+  color: #F1F1F1;
   text-align: justify;
   margin: 5%;
   padding: 5%;
-  border: 2px dashed #243C4E;
+  border: 2px dashed #BED2E9;
 }
-html body .sidebar .skills {
+.sidebar .skills {
   font-size: 1rem;
-  color: #243C4E;
+  color: #F1F1F1;
   text-align: justify;
   text-align: center;
   margin: 20%;
-  border: 2px dashed #243C4E;
+  border: 2px dashed #BED2E9;
 }
-html body .sidebar footer {
+.sidebar footer {
   display: flex;
   align-items: flex-end;
+  font-size: 0.8rem;
 }
-html body .rightside {
+.rightside {
   width: 100%;
+  height: 1000px;
 }
-html body .rightside header {
+.rightside header {
   width: 100%;
   height: 20%;
-  background-color: #243C4E;
-  color: #F1F1F1;
+  background-color: #BED2E9;
   padding: 5%;
 }
-html body .rightside header h1 {
+.rightside header h1 {
   font-size: 2rem;
   width: 100%;
   text-align: center;
+  color: #243C4E;
 }
-html body .rightside header nav {
+.rightside header nav {
   justify-content: space-around;
   align-items: center;
   display: flex;
 }
-html body .rightside header nav a {
+.rightside header nav a {
   margin: 3.5% 5%;
   font-size: 1rem;
   text-align: center;
-  color: #DFDFDD;
+  color: #F1F1F1;
   display: inline-block;
   text-decoration: none;
 }
 @media screen and (max-width: 550px) {
-  html body .rightside header nav a {
+  .rightside header nav a {
     color: red;
   }
+}
+.rightside main {
+  height: inherit;
+  margin-left: 5%;
+  padding-left: 5%;
+  margin: 5%;
+  border-left: 3rem dotted #BED2E9;
+}
+.rightside main h2 {
+  font-size: 1.5rem;
+}
+.rightside main .workHistory {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
 }
